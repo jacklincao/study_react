@@ -8,6 +8,7 @@ import AuthExample from './AuthExample'
 import CustomLinkExample from './CustomLinkExample'
 import PreventingTransitionsExample from './PreventingTransitionsExample'
 import NoMatchExample from './NoMatchExample'
+import RecursiveExample from './RecursiveExample'
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<NoMatchExample />, document.getElementById('root'));
+ReactDOM.render(<RecursiveExample />, document.getElementById('root'));
