@@ -9,6 +9,7 @@ import CustomLinkExample from './CustomLinkExample'
 import PreventingTransitionsExample from './PreventingTransitionsExample'
 import NoMatchExample from './NoMatchExample'
 import RecursiveExample from './RecursiveExample'
+import SidebarExample from './SidebarExample'
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<RecursiveExample />, document.getElementById('root'));
+ReactDOM.render(<SidebarExample />, document.getElementById('root'));
