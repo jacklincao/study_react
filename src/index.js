@@ -10,6 +10,7 @@ import PreventingTransitionsExample from './PreventingTransitionsExample'
 import NoMatchExample from './NoMatchExample'
 import RecursiveExample from './RecursiveExample'
 import SidebarExample from './SidebarExample'
+import AnimationExample from './AnimationExample'
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<SidebarExample />, document.getElementById('root'));
+ReactDOM.render(<AnimationExample />, document.getElementById('root'));
